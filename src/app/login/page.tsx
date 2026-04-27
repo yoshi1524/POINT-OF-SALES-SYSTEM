@@ -31,7 +31,7 @@ export default function LoginPage() {
       <div style={{ width: '100%', maxWidth: 420 }}>
         <div className="card" style={{ padding: 40, borderRadius: 16 }}>
           <div style={{ textAlign: 'center', marginBottom: 32 }}>
-            <Image src="/cside.png" alt="Countryside" width={160} height={160} style={{ objectFit: 'contain', marginBottom: 8 }} />
+            <Image src="/cside-v2.png" alt="Countryside" width={160} height={160} style={{ objectFit: 'contain', marginBottom: 8 }} />
             <div style={{ fontSize: 12, color: 'var(--text3)', letterSpacing: 2, textTransform: 'uppercase' }}>Point of Sale System</div>
           </div>
           {error && <div className="notice error">{error}</div>}

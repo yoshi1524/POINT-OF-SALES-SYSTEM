@@ -24,7 +24,8 @@ h1,h2,h3,h4{font-family:'Syne',sans-serif}
 .btn-green{background:rgba(91,191,138,0.15);color:var(--green);border:1px solid rgba(91,191,138,0.3)}.btn-green:hover{background:rgba(91,191,138,0.25)}
 .btn-sm{padding:6px 12px;font-size:12px}
 .page{display:none;flex:1;overflow:auto;padding:24px;flex-direction:column;gap:20px}.page.active{display:flex}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px; transparent}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px; background:transparent !important;
+  mix-blend-mode: lighten;}
 .card-title{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px}
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}

@@ -6,7 +6,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <title>Countryside POS</title>
-        <link rel="icon" href="/cside.png" type="image/png" />
+        <link rel="icon" href="/cside-v2.png" type="image/png" />
       </head>
       <body>
         <SessionProvider>{children}</SessionProvider>
